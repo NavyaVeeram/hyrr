@@ -168,7 +168,7 @@ const Signup = () =>{
    
       </Form.Group>
       <div className="text-center" style={{fontSize:'13px',paddingTop:'3%',paddingBottom:'1%',fontFamily:'poppins'}}>Already have an account? 
-      <Link to='/login' className='signup-link'>Log in</Link>
+      <Link to='/login'className='signup-link'><button>Log in</button></Link>
    
       <p style={{color:'grey'}}>Or continue with</p>
   <Link to='https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1'><img src={google} style={{width:'30px',height:'30px'}} alt="Google"/></Link>

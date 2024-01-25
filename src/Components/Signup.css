@@ -10,21 +10,28 @@
     font-weight: 700;
     font-size: 16px;
   }
-.container{
-  width:400px;
-  background: aliceblue;
-  border-radius: 30px;
-  padding:20px;
-height:700px;
-
-}
+  .container {
+    width: 400px;
+    background: rgba(240, 248, 255, 0.8);
+    border-radius: 30px;
+    height: 700px;
+    position:absolute;
+    left: 50%;
+    top:68%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+  
 .containers{
   width:400px;
   background-color: aliceblue;
   border-radius: 30px;
   padding:20px;
-opacity: 1;
-height:450px;
+height:500px;
+position:absolute;
+left: 50%;
+top:55%;
+transform: translate(-50%, -50%);
 }
 h4{
   font-family: poppins;
@@ -68,7 +75,7 @@ background-color:rgb(0, 66, 219) ;
     width:300px;
     height:210px;
     position:relative;
-    top:170px;
+    top:60px;
     left:50%;
     transform: translate(-50%,-50%);
 z-index: -1;
@@ -76,7 +83,7 @@ opacity: 0.3;
   }
 .content{
   position: absolute;
-  top: 28%; /* Adjust as needed */
+  top: 11%; /* Adjust as needed */
   left: 50%; /* Adjust as needed */
   transform: translate(-50%, -50%);
   z-index: 4; 
@@ -89,4 +96,38 @@ background: white;
 .input-group-text{
   border:none;
   background: white;
+}
+@media (max-width: 768px) {
+  /* Adjust styles for tablet view */
+  .container {
+    width: 100%;
+    background: rgba(240, 248, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+    height: 700px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for phone view */
+  .container {
+    width: 100%;
+    background: rgba(240, 248, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+    height: 700px;
+    position: relative;
+    top:0%;
+  }
+
+}
+button{
+  color:blue;
+  text-decoration: none;
+  border:none;
+  outline: none;
+  background: transparent;
+  font-weight:bold;
+  font-family: poppins;
 }
