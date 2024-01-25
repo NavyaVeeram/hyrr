@@ -30,7 +30,7 @@
 height:500px;
 position:absolute;
 left: 50%;
-top:55%;
+top:65%;
 transform: translate(-50%, -50%);
 }
 h4{
@@ -122,8 +122,9 @@ background: white;
   }
 
 }
+
 button{
-  color:blue;
+  color:rgb(0, 66, 219);
   text-decoration: none;
   border:none;
   outline: none;
